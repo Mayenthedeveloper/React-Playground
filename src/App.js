@@ -133,13 +133,13 @@ class App extends Component{
   render(){
     return(
       <div className ='App'>
-        {/* <h2>Hello World</h2> */}
-        <HelloWorld />
-        {/* <h2>Bomb</h2> */}
-        <Bomb />
-        {/* <h2>Roulette Gun</h2> */}
-        <RouletteGun bullettInchamber={6} />
-        {/* <h2>Accordian</h2> */}
+      {/* //   <h2>Hello World</h2> */}
+      {/* //   <HelloWorld /> */}
+      {/* //   <h2>Bomb</h2> */}
+      {/* //   <Bomb /> */}
+      {/* //   <h2>Roulette Gun</h2> */}
+      {/* //   <RouletteGun bullettInchamber={6} /> */}
+      {/* //   <h2>Accordian</h2> */}
         <Accordion  sections={sections} />
       </div>
     );
